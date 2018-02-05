@@ -13,12 +13,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main );
     }
 
-    public void onButtonClick (View view ){
+    public void onBlankettButtonClick(View view ){
 
         if(view.getId() == R.id.buttonBlankett){
             Intent i = new Intent(MainActivity.this , StartMenu.class) ;
             startActivity(i);
         }
-
     }
+    public void onContactButtonClick (View view ){
+
+        if(view.getId() == R.id.buttonContact){
+            Intent i = new Intent(MainActivity.this , ContactPage.class) ;
+            startActivity(i);
+        }
+    }
+
 }

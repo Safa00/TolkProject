@@ -13,7 +13,7 @@
         android:layout_above="@+id/button4"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
-        android:onClick="onButtonClick"
+        android:onClick="onBlankettButtonClick"
         android:background="@drawable/btn"
         android:text="Blanketter   الاستمارات "
         android:textColor="#bf000000" />
@@ -22,16 +22,16 @@
         android:id="@+id/button4"
         android:layout_width="250dp"
         android:layout_height="55dp"
-        android:layout_above="@+id/button5"
-        android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5"
+        android:layout_above="@+id/buttonContact"
+        android:layout_alignLeft="@+id/buttonContact"
+        android:layout_alignStart="@+id/buttonContact"
         android:layout_marginBottom="15dp"
         android:background="@drawable/btn"
         android:text="Somthing"
         android:textColor="#bf000000" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/buttonContact"
         android:layout_width="250dp"
         android:layout_height="55dp"
         android:layout_alignLeft="@+id/buttonBlankett"
@@ -39,7 +39,8 @@
         android:layout_alignStart="@+id/buttonBlankett"
         android:layout_marginBottom="45dp"
         android:background="@drawable/btn"
-        android:text="Kontakta oss   اتصل بنا "
+        android:onClick="onContactButtonClick"
+        android:text="Kontakta oss   تواصل معنا "
         android:textColor="#bf000000" />
 
     <TextView
