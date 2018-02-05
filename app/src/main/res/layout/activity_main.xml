@@ -1,43 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
 
 
     <Button
         android:id="@+id/buttonBlankett"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/button4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="147dp"
+        android:layout_marginBottom="15dp"
         android:onClick="onButtonClick"
-        android:text="Blanketter   الاستمارات " />
+        android:background="@drawable/btn"
+        android:text="Blanketter   الاستمارات "
+        android:textColor="#bf000000" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/buttonBlankett"
-        android:layout_marginTop="49dp"
-        android:text="bla bla bla" />
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn"
+        android:text="Somthing"
+        android:textColor="#bf000000" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button4"
-        android:layout_marginTop="49dp"
-        android:text="Kontakta oss   اتصل بنا " />
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/buttonBlankett"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/buttonBlankett"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/btn"
+        android:text="Kontakta oss   اتصل بنا "
+        android:textColor="#bf000000" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp"
-        android:text="    Startsidan    الصفحة الرئيسية"
-        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+        android:layout_marginTop="105dp"
+        android:fontFamily="serif"
+        android:text="Startsidan    الصفحة الرئيسية"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="#bf000000"
+        android:textSize="20sp" />
 
 </RelativeLayout>
