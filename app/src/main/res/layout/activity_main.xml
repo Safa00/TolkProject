@@ -15,7 +15,7 @@
         android:layout_marginBottom="15dp"
         android:onClick="onBlankettButtonClick"
         android:background="@drawable/btn"
-        android:text="Blanketter   الاستمارات "
+        android:text="@string/blanketter"
         android:textColor="#bf000000" />
 
     <Button
@@ -40,7 +40,7 @@
         android:layout_marginBottom="45dp"
         android:background="@drawable/btn"
         android:onClick="onContactButtonClick"
-        android:text="Kontakta oss   تواصل معنا "
+        android:text="@string/kontakta_oss"
         android:textColor="#bf000000" />
 
     <TextView
@@ -51,7 +51,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="105dp"
         android:fontFamily="serif"
-        android:text="Startsidan    الصفحة الرئيسية"
+        android:text="@string/startsidan"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textColor="#bf000000"
         android:textSize="20sp" />
