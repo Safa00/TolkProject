@@ -9,4 +9,14 @@
     <string name="blanketter">Blanketter</string>
     <string name="kontakta_oss">Kontakta oss</string>
     <string name="startsidan">Startsidan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="login">Login</string>
+    <string name="order_history">Order History</string>
+    <string name="ring_oss">Ring oss</string>
+    <string name="maila_oss">Maila oss</string>
+    <string name="facebook_sida">Facebook sida</string>
+    <string name="n_sta">nästa</string>
 </resources>
