@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blanketter">الاستمارات</string>
+    <string name="kontakta_oss">تواصل معنا</string>
+    <string name="startsidan">الصفحة الرئيسية</string>
+    <string name="ring_oss">Ring oss</string>
+    <string name="maila_oss">Maila oss</string>
+    <string name="facebook_sida">Facebook sida</string>
+    <string name="n_sta">nästa</string>
+</resources>
