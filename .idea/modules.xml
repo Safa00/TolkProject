@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TolkAppen.iml" filepath="$PROJECT_DIR$/TolkAppen.iml" />
+      <module fileurl="file://C:\Users\safaa\Desktop\Tolken\TolkAppen.iml" filepath="C:\Users\safaa\Desktop\Tolken\TolkAppen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tolken.iml" filepath="$PROJECT_DIR$/Tolken.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\safaa\Desktop\Tolken\app\app.iml" filepath="C:\Users\safaa\Desktop\Tolken\app\app.iml" />
     </modules>
   </component>
 </project>
