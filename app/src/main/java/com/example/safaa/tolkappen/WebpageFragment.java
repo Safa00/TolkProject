@@ -20,6 +20,7 @@ public class WebpageFragment extends Fragment {
 
     private static WebView browser;
     private static Button urlButton;
+    private static Button langButton;
 
     private ArrayList<Pages> pageListArabic = new ArrayList<>();
     private ArrayList<Pages> pageListSwedish = new ArrayList<>();
@@ -67,6 +68,7 @@ public class WebpageFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         urlButton = (Button)view.findViewById(R.id.button);
+        langButton = (Button)view.findViewById(R.id.button2);
         browser = view.findViewById(R.id.webView);
         browser.getSettings().setLoadsImagesAutomatically(true);
         browser.getSettings().setJavaScriptEnabled(true);
@@ -77,12 +79,21 @@ public class WebpageFragment extends Fragment {
                     @Override
                     public void onClick(View v){
                         counter++;
-                        counter = counter % myLinksArabic.size();
+                        counter = counter % myLinksSwedish.size();
+                        browser.loadUrl("https://docs.google.com/gview?embedded=true&url=" + myLinksSwedish.get(counter));
+
+                    }
+                }
+        );
+        langButton.setOnClickListener(
+                new View.OnClickListener(){
+                    @Override
+                    public void onClick(View v){
+
                         browser.loadUrl("https://docs.google.com/gview?embedded=true&url=" + myLinksArabic.get(counter));
                     }
                 }
         );
-
 
 /*
 
