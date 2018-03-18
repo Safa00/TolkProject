@@ -9,9 +9,9 @@
             android:icon="@drawable/ic_attach_file_black_24dp"
             android:title="@string/blanketter"/>
         <item
-            android:id="@+id/facebook_contact"
+            android:id="@+id/om_appen"
             android:icon="@drawable/ic_whatshot_black_24dp"
-            android:title="@string/facebook_sida"/>
+            android:title="@string/om_appen" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_announcement_black_24dp"

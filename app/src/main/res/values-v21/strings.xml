@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="facebook_sida">Facebook sida</string>
+    <string name="om_appen">Facebook sida</string>
     <string name="n_sta">nästa</string>
+    <string name="om_osss">Om Oss</string>
+    <string name="v_r_app_r_till_dig_som_beh_ver_hj_lp_med_att_vers_tta_blanketter_och_ven_komma_i_kontakt_med_en_av_v_ra_duktiga_tolkar_det_h_r_tj_nsten_r_f_r_anv_ndare_med_de_senaste_mobil_versionerna">Vår app är till dig som behöver hjälp med att översätta blanketter och även komma i kontakt med en av våra duktiga tolkar (det här tjänsten är för användare med de senaste mobil-versionerna)</string>
+    <string name="kontakt">Kontakt</string>
 </resources>

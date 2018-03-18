@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             fragment = new WebpageFragment();
-        } else if (id == R.id.facebook_contact) {
+        } else if (id == R.id.om_appen) {
             fragment = new FacebookFragment();
         } else if (id == R.id.nav_slideshow) {
             fragment = new ContactFragment();

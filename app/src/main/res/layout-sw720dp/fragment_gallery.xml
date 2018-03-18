@@ -2,8 +2,8 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/colorAccent"
-                tools:context="com.bignerdranch.android.companyapp.FacebookFragment">
+                android:background="@drawable/bg"
+                tools:context="com.example.safaa.tolkappen.FacebookFragment">
 
     <!-- TODO: Update blank fragment layout -->
 

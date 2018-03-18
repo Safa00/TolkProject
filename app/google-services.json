@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "556406568349",
+    "firebase_url": "https://tolkappen.firebaseio.com",
+    "project_id": "tolkappen",
+    "storage_bucket": "tolkappen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556406568349:android:7fd208f37194eb38",
+        "android_client_info": {
+          "package_name": "com.example.safaa.tolkappen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556406568349-bjtvc6eb4l9aait3efpcrn2bir7vof84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safaa.tolkappen",
+            "certificate_hash": "2bb21753419d93f135872b71df55d7556781a2c9"
+          }
+        },
+        {
+          "client_id": "556406568349-l7dl5gppbkvjb7lvrhfr20in4vefto85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKKW1jecKXs02FIb2Lrb2mx7OZZOY2Nbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556406568349-l7dl5gppbkvjb7lvrhfr20in4vefto85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

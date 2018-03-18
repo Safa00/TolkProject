@@ -5,7 +5,12 @@
     <string name="startsidan">الصفحة الرئيسية</string>
     <string name="ring_oss">اتصل بنا</string>
     <string name="maila_oss">راسلنا</string>
-    <string name="facebook_sida">صفحة الفيس بوك</string>
+    <string name="om_appen">عن التطبيق</string>
     <string name="n_sta">الصفحة التالية</string>
     <string name="byt_spr_k">الترجمة</string>
+    <string name="om_oss">حول التطبيق</string>
+    <string name="v_r_app_r_till_dig_som_beh_ver_hj_lp_med_att_vers_tta_blanketter_och_ven_komma_i_kontakt_med_en_av_v_ra_duktiga_tolkar_det_h_r_tj_nsten_r_f_r_anv_ndare_med_de_senaste_mobil_versionerna"> تطبيقنا للذي يحتاج مساعدة بترجمة الاستمارات وايضا التواصل مع احد مترجمينا البارعين لكن هذه الخدمة متوفرة فقط للهواتف من الطراز الحديث
+</string>
+    <string name="kontakt">تواصل معنا</string>
+
 </resources>
