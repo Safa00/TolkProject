@@ -24,6 +24,7 @@
         android:layout_marginBottom="43dp"
         android:text="@string/maila_oss"/>
 
+
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
