@@ -1,7 +1,5 @@
 package com.example.safaa.tolkappen;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -10,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.Button;
-
 
 import java.util.ArrayList;
 
@@ -73,7 +70,7 @@ public class WebpageFragment extends Fragment {
         browser.getSettings().setLoadsImagesAutomatically(true);
         browser.getSettings().setJavaScriptEnabled(true);
         browser.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-        browser.loadUrl("https://docs.google.com/gview?embedded=true&url=" + myLinksArabic.get(counter));
+        browser.loadUrl("https://docs.google.com/gview?embedded=true&url=" + myLinksSwedish.get(counter));
         urlButton.setOnClickListener(
                 new View.OnClickListener(){
                     @Override
